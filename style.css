@@ -1,0 +1,188 @@
+body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+body {
+  background-color:#f0f8ff;
+  font-family: Arial, sans-serif;
+} 
+
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: #c0c0c0;
+  color: #333;
+  padding: 20px;
+  position: relative; 
+}
+
+header .title-image {
+  width: 960px; 
+  height: 100px; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  }
+
+
+.container {
+  display: flex;
+}
+
+
+.main {
+  background: ghostwhite;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type:none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* nav ul li.current a{
+color: #F33135;
+} */
+nav ul li a:hover{
+color: green;
+}
+
+nav li:not(:last-child){
+padding: 10px;
+}
+
+/* nav li.current{
+border-bottom: 3px solid black;
+} */
+
+footer {
+  background: #c0c0c0;
+  padding: 20px;
+  text-align: center;
+  line-height: 2em;
+}
+
+
+article {
+  margin-bottom: 20px; 
+}
+  
+
+section {
+  margin-bottom: 20px;
+}
+
+address {
+  font-style: italic; 
+  margin-bottom: 10px; 
+}
+  
+
+hgroup {
+  margin-bottom: 20px; 
+}
+
+
+h1 {
+  font-size: 36px; 
+  text-align: center;
+  line-height: 2em;
+}
+  
+h2 {
+  font-size: 30px; 
+}
+  
+h3 {
+  font-size: 24px;
+}
+  
+h4 {
+  font-size: 20px; 
+}
+  
+h5 {
+  font-size: 18px; 
+}
+  
+h6 {
+  font-size: 16px; 
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    table-layout: fixed;
+}
+
+address {
+  text-align: center
+}
+
+/* th,td {
+  border: 3px, solid #333;
+} */
+
+.Profile_logo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.text {
+  display: inline-block;
+  text-align: left;
+  vertical-align: 250%;
+  line-height: 2em;
+  padding-left: 19.6px;
+}
+
+.Skills_height {
+  line-height: 3em;
+}
+
+#Contact_link > p.pagetop {
+  text-align: right;
+}
+
+.pagetop img {
+  width: 100px;
+  height: 100px;
+}
